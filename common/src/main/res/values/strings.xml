@@ -1,0 +1,59 @@
+<resources>
+    <!--<string name="my_app_name">手上青秀</string>-->
+    <string name="my_app_name">MVVM测试</string>
+
+    <string name="exploiting">开发中...</string>
+    <string name="app_name">common</string>
+    <string name="share">Share</string>
+    <!--个人注册-->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="regist_idcard_hint">请输入身份证号码</string>
+    <string name="regist_phonenum_hint">请输入手机号码</string>
+    <string name="regist_verification_hint">请输入6位验证码</string>
+    <!--<string name="regist_setpassword_hint">密码长度大于6位，必须包含数字、大小写字母与特殊字符</string>-->
+    <string name="regist_setpassword_hint">请设置密码，8~20个字符，由大写字母、小写字母和数字组成</string>
+    <string name="regist_passwordagain_hint">再次输入密码</string>
+    <!--公司注册-->
+    <string name="regist_chooselegaltype_hint">请选择法人类型</string>
+    <string name="regist_province_hint">选择省</string>
+    <string name="regist_city_hint">选择市</string>
+    <string name="regist_area_hint">选择区</string>
+    <string name="regist_street_hint">选择乡镇/街道</string>
+    <string name="regist_community_hint">选择社区/村委</string>
+    <string name="regist_companyname_hint">请输入公司/单位名称，最长50字符</string>
+    <string name="regist_creditcode_hint">公司/单位名称统一的社会信用代码（此项为登录名）</string>
+    <string name="regist_legalname_hint">请输入法人代表姓名，最长10字符</string>
+    <string name="regist_legalidcard_hint">请输入法人代表身份证号码</string>
+    <string name="regist_legalphonenum_hint">请输入法人代表手机号</string>
+    <string name="regist_companyaddress_hint">请输入公司/单位地址</string>
+    <string name="regist_linkmanname_hint">请输入联系人姓名，最长10字符</string>
+    <string name="regist_linkmanphone_hint">请输入联系人电话号码</string>
+    <string name="regist_readandagree">我已阅读并同意</string>
+    <string name="regist_protocol">《手上青秀服务平台注册协议》</string>
+    <string name="regist_pic_size">上传文件格式支持：png/jpg，大小不超过2M</string>
+    <string name="regist_empty_idcard">请输入身份证号码</string>
+    <string name="regist_error_idcard">身份证号码格式错误</string>
+    <string name="regist_error_phone">手机号码格式错误</string>
+    <string name="regist_difference_pwd">密码不一致</string>
+    <string name="regist_format_error_pwd">密码格式错误</string>
+
+    <!--登录-->
+    <string name="login_creditcode_hint">请输入统一社会信用代码或者手机号码</string>
+    <string name="login_idcard_hint">请输入手机号码</string>
+    <string name="title_activity_deal_instruction">DealInstructionActivity</string>
+    <string name="login_passwordagain_hint">请输入密码</string>
+    <!--设置用户信息-->
+    <string name="setting_oldpassword_hint">请输入旧密码</string>
+    <string name="setting_newpassword_hint">请输入新密码</string>
+    <string name="setting_passwordagain_hint">请确认新密码</string>
+    <string name="setting_chang_phonenum_hint">请输入新的手机号码</string>
+
+    <!--我要问政-->
+    <string name="askpolitics_title_hint">输入问政标题，20字以内</string>
+    <string name="askpolitics_detail_hint">请输入详细描述，300字以内</string>
+
+    <!--网络-->
+    <string name="no_network_connect">当前网络不佳，请检查网络</string>
+    <string name="title_activity_bind_mobile">BindMobileActivity</string>
+
+</resources>

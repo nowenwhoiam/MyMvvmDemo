@@ -1,0 +1,135 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--自定义editext风格-->
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <!--未被选中时下划线的颜色-->
+        <item name="colorControlNormal">@color/app_bg_color</item>
+        <!--输入框的左内边框-->
+        <item name="android:paddingLeft">10dp</item>
+        <!--文本的颜色-->
+        <item name="android:textColor">@color/gray_333333</item>
+        <!--被选中时下划线的颜色-->
+        <item name="colorControlActivated">@color/app_bg_color</item>
+    </style>
+
+    <!--事项列表页地址editext风格-->
+    <style name="MatterFormAdressEditText" parent="Theme.AppCompat.Light">
+        <!--未被选中时下划线的颜色-->
+        <item name="colorControlNormal">@color/gray_999999</item>
+        <!--输入框的左内边框-->
+        <item name="android:paddingLeft">10dp</item>
+        <!--文本的颜色-->
+        <item name="android:textColor">@color/gray_999999</item>
+        <!--被选中时下划线的颜色-->
+        <item name="colorControlActivated">@color/gray_999999</item>
+    </style>
+
+    <!---->
+    <style name="WorkHallProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">50dip</item>
+        <item name="android:minHeight">10dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">
+            @android:drawable/progress_indeterminate_horizontal
+        </item>
+        <item name="android:progressDrawable">@drawable/workhall_progressbar</item>
+    </style>
+    <!--webview进度条风格-->
+    <style name="MyWebViewProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">
+            @android:drawable/progress_indeterminate_horizontal
+        </item>
+        <item name="android:progressDrawable">@drawable/workhall_progressbar</item>
+    </style>
+
+    <style name="TextAppearanceHome" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearanceVideo" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--注册页自定义checkbox风格-->
+    <style name="RegisterCheckBoxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/selector_register_checkbox</item>
+    </style>
+
+    <!--版本更新对话框-->
+    <style name="LocatonDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/tran_100</item><!-- 背景透明 -->
+        <item name="android:windowAnimationStyle">@android:style/Theme.InputMethod</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowEnterAnimation">@anim/enter_dialog</item>
+        <item name="android:windowExitAnimation">@anim/out_dialog</item>
+    </style>
+
+    <!--智慧政务-->
+    <style name="SmartAffairsTablayoutstyle" parent="Base.Widget.Design.TabLayout">
+        <!--        <item name="tabBackground">@color/white</item>
+                <item name="tabIndicatorColor">@color/app_main_color</item>
+                <item name="tabIndicatorHeight">2dp</item>
+                <item name="tabSelectedTextColor">@color/app_main_color</item>-->
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <!--问政热点-->
+    <style name="AskPoliticsHot" parent="Base.Widget.Design.TabLayout">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <!--APP菜单tab-->
+    <style name="APPMenuTab" parent="Base.Widget.Design.TabLayout">
+        <item name="android:textSize">@dimen/titlebar_titlesize</item>
+    </style>
+    <!--通用dialog-->
+    <style name="Commen_Dialog_Style" parent="@android:style/Theme.Dialog">
+        <!--窗口背景色透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!--是否浮在界面上-->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否允许背景变暗 --> <!--背景是否模糊显示-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--是否有标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否半透明-->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <!-- 通用dialog底部弹出菜单动画 -->
+    <style name="bottom_animation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/common_dialog_bottom_enter</item>
+        <item name="android:windowExitAnimation">@anim/common_dialog_bottom_exit</item>
+    </style>
+    <!--云媒-新闻-频道编辑fragment动画-->
+    <style name="dialogSlideAnim" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_bottom_slide_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_bottom_slide_out</item>
+    </style>
+    <!--自定义菊花loading-->
+    <style name="mProgress_circle">
+        <item name="android:indeterminateDrawable">@drawable/progressbar_circle</item>
+        <item name="android:minWidth">25dp</item>
+        <item name="android:minHeight">25dp</item>
+        <item name="android:maxWidth">60dp</item>
+        <item name="android:maxHeight">60dp</item>
+    </style>
+</resources>

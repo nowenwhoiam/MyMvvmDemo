@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/shape_login_bt_bg"
+          android:state_enabled="true"/>
+    <item android:drawable="@drawable/shape_unlogin_bt_bg"
+          android:state_enabled="false"/>
+    <item
+        android:state_pressed="true"
+        android:drawable="@color/red_ff4848" />
+</selector>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">network</string>
+    <string name="network_environment_setting">开发者设置</string>
+    <string name="menu_home">首页</string>
+    <string name="menu_yunmei">云媒</string>
+    <string name="menu_work_service">办事</string>
+    <string name="menu_convenience_people">便民</string>
+    <string name="menu_account">我的</string>
+</resources>

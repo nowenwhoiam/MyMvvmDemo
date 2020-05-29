@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/tabbar_home"
+        android:title="@string/menu_home" />
+
+    <item
+        android:id="@+id/menu_yunmei"
+        android:icon="@drawable/tab_bar_category_ic"
+        android:title="@string/menu_yunmei" />
+
+    <item
+        android:id="@+id/menu_work_service"
+        android:icon="@drawable/tabbar_crux"
+        android:title="@string/menu_work_service" />
+
+    <item
+        android:id="@+id/menu_convenience_people"
+        android:icon="@drawable/tabbar_crux"
+        android:title="@string/menu_convenience_people" />
+
+    <item
+        android:id="@+id/menu_account"
+        android:icon="@drawable/tabbar_account"
+        android:title="@string/menu_account" />
+</menu>

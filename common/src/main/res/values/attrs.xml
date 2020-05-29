@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--个人中心栏目-->
+    <declare-styleable name="minecolumn_item_view">
+        <attr name="show_bottomline" format="boolean" />
+        <attr name="show_leftimg" format="integer" />
+        <attr name="show_text" format="string" />
+    </declare-styleable>
+    <!--设置页面栏目-->
+    <declare-styleable name="setting_item_view">
+        <attr name="show_setting_bottomline" format="boolean" />
+        <attr name="isshow_right_img" format="boolean" />
+        <attr name="isshow_right_arrow" format="boolean" />
+        <attr name="show_right_img" format="integer" />
+        <attr name="show_lefttext" format="string" />
+        <attr name="show_righttext" format="string" />
+    </declare-styleable>
+    <!--首页自定义view-->
+    <declare-styleable name="home_comon_view">
+        <attr name="show_arrow" format="boolean" />
+        <attr name="title" format="string" />
+    </declare-styleable>
+    <!--办事大厅progressbar-->
+    <declare-styleable name="work_hall_progress_bar">
+        <attr name="set_title" format="string" />
+    </declare-styleable>
+    <!--在线办理自定义Editext-->
+    <declare-styleable name="online_editext">
+        <attr name="text" format="string" />
+        <attr name="show_bottom_line" format="boolean" />
+    </declare-styleable>
+<!--自定义气泡布局-->
+    <declare-styleable name="BubbleLayout">
+        <attr name="background_color" format="color" />
+        <attr name="shadow_color" format="color" />
+        <attr name="shadow_size" format="dimension" />
+        <attr name="radius" format="dimension" />
+        <attr name="direction" format="enum">
+            <enum name="left" value="1" />
+            <enum name="top" value="2" />
+            <enum name="right" value="3" />
+            <enum name="bottom" value="4" />
+        </attr>
+        <attr name="offset" format="dimension" />
+    </declare-styleable>
+</resources>

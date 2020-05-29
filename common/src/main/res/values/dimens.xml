@@ -1,0 +1,31 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--注册的editext的尺寸-->
+    <dimen name="regist_editext_hight">60dp</dimen>
+    <dimen name="regist_editext_textsize">14sp</dimen>
+    <dimen name="regist_editext_marginleft">12sp</dimen>
+    <dimen name="regist_editext_maringright">12sp</dimen>
+    <!--标题栏的高度-->
+    <dimen name="titlebar_hight">46dp</dimen>
+    <!--标题栏字体大小-->
+    <dimen name="titlebar_titlesize">18sp</dimen>
+    <!--标题栏左边字体大小-->
+    <dimen name="titlebar_lefttextsize">16sp</dimen>
+    <!--标题栏右边字体大小-->
+    <dimen name="titlebar_rightsize">16sp</dimen>
+    <!--办事大厅标题圆角-->
+    <dimen name="work_hall_shape_cornor">4dp</dimen>
+    <!--我的_栏目高度-->
+    <dimen name="mine_column_hight">60dp</dimen>
+    <!--我的_栏目字体大小-->
+    <dimen name="mine_column_textsize">14sp</dimen>
+    <!--办事大厅-->
+    <dimen name="work_hall_progressbar_hight">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!--在线办理基本信息最小高度-->
+    <dimen name="online_baseinfo_hight">60dp</dimen>
+    <!--办事指南-办事信息高度-->
+    <dimen name="detaile_info_hight">60dp</dimen>
+    <!--帮助与反馈高度-->
+    <dimen name="help_and_couple_hight">60dp</dimen>
+</resources>

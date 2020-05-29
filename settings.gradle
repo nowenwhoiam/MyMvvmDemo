@@ -1,0 +1,2 @@
+include ':app', ':base', ':network', ':xiangxuewebview', ':common', ':yunmei', ':home'
+rootProject.name='MyMvvmDemo'
